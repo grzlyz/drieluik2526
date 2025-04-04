@@ -110,4 +110,11 @@ SUMMARY:Dental Appointment at Dental Clinics Almere Westeinde
 LOCATION:Westeinde 14A, 1334 BK Almere
 DESCRIPTION:Appointment at Dental Clinics Almere Westeinde. Please note: Cancellations must be made at least 24 hours in advance to avoid charges. Contact: 036 - 21 00 175, westeinde@dentalclinics.nl, www.dentalclinics.nl
 END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250716T100000
+DTEND:20250814T110000
+SUMMARY:Cat Boarding at Kattenpension Hilversum
+LOCATION:Kattenpension Hilversum
+DESCRIPTION:Verblijfsperiode: 16 jul. 2025 t/m 14 aug. 2025\nBrengen: Woensdag 16 jul. 2025 tussen 10:00-11:00 uur\nOphalen: Donderdag 14 aug. 2025 tussen 10:00-11:00 uur\n\nHaal- en brengtijden: maandag t/m vrijdag 10:00-11:00 uur en 16:30-17:30 uur. Op zaterdag en zondag alleen tussen 10:00-11:00 uur.
+END:VEVENT
 END:VCALENDAR
