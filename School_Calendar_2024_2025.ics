@@ -1,21 +1,15 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Your Organization//Your Calendar//EN
+PRODID:-//School Calendar 2025-2026//NL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
 
-# Bestaande afspraken die nog relevant zijn
+# Bestaande afspraken
 BEGIN:VEVENT
 DTSTART:20250429T090000
 DTEND:20250429T100000
 SUMMARY:Vaccinaties Mochi
 LOCATION:Midwaystraat 7, 1339 NM Almere
-END:VEVENT
-
-BEGIN:VEVENT
-DTSTART:20251002T160500
-DTEND:20251002T170500
-SUMMARY:Dental Appointment at Dental Clinics Almere Westeinde
-LOCATION:Westeinde 14A, 1334 BK Almere
-DESCRIPTION:Appointment at Dental Clinics Almere Westeinde. Please note: Cancellations must be made at least 24 hours in advance to avoid charges. Contact: 036 - 21 00 175, westeinde@dentalclinics.nl, www.dentalclinics.nl
 END:VEVENT
 
 BEGIN:VEVENT
@@ -26,72 +20,119 @@ LOCATION:Kattenpension Hilversum
 DESCRIPTION:Verblijfsperiode: 16 jul. 2025 t/m 14 aug. 2025\nBrengen: Woensdag 16 jul. 2025 tussen 10:00-11:00 uur\nOphalen: Donderdag 14 aug. 2025 tussen 10:00-11:00 uur\n\nHaal- en brengtijden: maandag t/m vrijdag 10:00-11:00 uur en 16:30-17:30 uur. Op zaterdag en zondag alleen tussen 10:00-11:00 uur.
 END:VEVENT
 
-# Schooljaar 2025-2026 - Vakanties
+BEGIN:VEVENT
+DTSTART:20251002T160500
+DTEND:20251002T170500
+SUMMARY:Dental Appointment at Dental Clinics Almere Westeinde
+LOCATION:Westeinde 14A, 1334 BK Almere
+DESCRIPTION:Appointment at Dental Clinics Almere Westeinde. Please note: Cancellations must be made at least 24 hours in advance to avoid charges. Contact: 036 - 21 00 175, westeinde@dentalclinics.nl, www.dentalclinics.nl
+END:VEVENT
+
+# Schoolvakanties 2025-2026
 BEGIN:VEVENT
 SUMMARY:Herfstvakantie
 DTSTART;VALUE=DATE:20251020
 DTEND;VALUE=DATE:20251025
+DESCRIPTION:1 week vakantie
 END:VEVENT
 
 BEGIN:VEVENT
 SUMMARY:Kerstvakantie
 DTSTART;VALUE=DATE:20251222
 DTEND;VALUE=DATE:20260103
+DESCRIPTION:2 weken vakantie
 END:VEVENT
 
 BEGIN:VEVENT
 SUMMARY:Voorjaarsvakantie
 DTSTART;VALUE=DATE:20260223
 DTEND;VALUE=DATE:20260228
+DESCRIPTION:1 week vakantie
 END:VEVENT
 
 BEGIN:VEVENT
 SUMMARY:Goede Vrijdag en Pasen
 DTSTART;VALUE=DATE:20260403
 DTEND;VALUE=DATE:20260407
-END:VEVENT
-
-BEGIN:VEVENT
-SUMMARY:Meivakantie
-DTSTART;VALUE=DATE:20260427
-DTEND;VALUE=DATE:20260509
+DESCRIPTION:Vrijdag + Maandag vrij
 END:VEVENT
 
 BEGIN:VEVENT
 SUMMARY:Koningsdag (valt in meivakantie)
 DTSTART;VALUE=DATE:20260427
 DTEND;VALUE=DATE:20260428
+DESCRIPTION:Maandag - Nationale feestdag
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Meivakantie
+DTSTART;VALUE=DATE:20260427
+DTEND;VALUE=DATE:20260509
+DESCRIPTION:2 weken vakantie (inclusief Koningsdag en Bevrijdingsdag)
 END:VEVENT
 
 BEGIN:VEVENT
 SUMMARY:Bevrijdingsdag (valt in meivakantie)
 DTSTART;VALUE=DATE:20260505
 DTEND;VALUE=DATE:20260506
+DESCRIPTION:Maandag - Nationale feestdag
 END:VEVENT
 
 BEGIN:VEVENT
 SUMMARY:Hemelvaart + de dag erna
 DTSTART;VALUE=DATE:20260514
 DTEND;VALUE=DATE:20260516
+DESCRIPTION:Donderdag + Vrijdag vrij
 END:VEVENT
 
 BEGIN:VEVENT
 SUMMARY:Pinksteren
 DTSTART;VALUE=DATE:20260524
 DTEND;VALUE=DATE:20260526
+DESCRIPTION:Maandag vrij (Tweede Pinksterdag)
 END:VEVENT
 
 BEGIN:VEVENT
 SUMMARY:Zomervakantie
 DTSTART;VALUE=DATE:20260706
 DTEND;VALUE=DATE:20260815
+DESCRIPTION:6 weken vakantie
 END:VEVENT
 
-# Studiedagen 2025-2026
+# Studiedagen en margedagen 2025-2026
 BEGIN:VEVENT
 SUMMARY:Studietweedaagse
 DTSTART;VALUE=DATE:20250911
 DTEND;VALUE=DATE:20250913
+DESCRIPTION:Donderdag + Vrijdag - Leerlingen vrij
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Studiedag
+DTSTART;VALUE=DATE:20251211
+DTEND;VALUE=DATE:20251212
+DESCRIPTION:Donderdag - Leerlingen vrij
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Studiedag
+DTSTART;VALUE=DATE:20260202
+DTEND;VALUE=DATE:20260203
+DESCRIPTION:Maandag - Leerlingen vrij
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Studiedag
+DTSTART;VALUE=DATE:20260609
+DTEND;VALUE=DATE:20260610
+DESCRIPTION:Dinsdag - Leerlingen vrij
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Kindvrije dag
+DTSTART;VALUE=DATE:20260703
+DTEND;VALUE=DATE:20260704
+DESCRIPTION:Vrijdag - Leerlingen vrij
 END:VEVENT
 
 END:VCALENDAR
