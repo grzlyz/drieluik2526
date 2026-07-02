@@ -179,6 +179,26 @@ PRIORITY:1
 END:VEVENT
 
 BEGIN:VEVENT
+UID:marriott-curacao-2026@reiskalender.nl
+SUMMARY:Curaçao Marriott Beach Resort
+DTSTART:20260709T160000
+DTEND:20260723T120000
+DTSTAMP:20260702T120000Z
+DESCRIPTION:Check-in donderdag 9 juli 16:00 (lokale tijd Curaçao)\nCheck-out donderdag 23 juli 12:00
+LOCATION:Piscadera Bay\, Willemstad\, Curaçao
+END:VEVENT
+
+BEGIN:VEVENT
+UID:villa-dolfijn-curacao-2026@reiskalender.nl
+SUMMARY:Villa Dolfijn Huis
+DTSTART:20260723T150000
+DTEND:20260806T110000
+DTSTAMP:20260702T120000Z
+DESCRIPTION:Inchecken donderdag 23 juli tussen 15:00 en 23:00 (lokale tijd Curaçao)\nUitchecken donderdag 6 augustus tot 11:00
+LOCATION:Curaçao
+END:VEVENT
+
+BEGIN:VEVENT
 UID:streetdance-6-9@prizdans.nl
 SUMMARY:Streetdance 6-9 jaar
 DTSTART:20250909T160000
